@@ -1,0 +1,33 @@
+  body {
+      font-family: 'Inter', sans-serif;
+    }
+
+  @keyframes floating {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+    100% { transform: translateY(0); }
+  }
+
+  .floating {
+    animation: floating 3s ease-in-out infinite;
+  }
+
+  .hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .hover-card:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 10px 25px rgba(128, 90, 213, 0.3); /* ungu neon */
+  }
+
+  .hover-experience {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .hover-experience:hover {
+    transform: scale(1.03) translateY(-4px);
+    box-shadow: 0 8px 20px rgba(168, 85, 247, 0.25); /* Bayangan ungu lembut */
+  }
+
+  
